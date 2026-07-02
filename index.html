@@ -9,115 +9,117 @@
   <body>
     <!-- Header -->
     <header>
-      <h2>smilefathurs</h2>
-
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-
-          <li><a href="#about">About</a></li>
-
-          <li><a href="#skills">Skills</a></li>
-
-          <li><a href="#projects">Projects</a></li>
-
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <h2><a href="#home" class="logo">smilefathurs</a></h2>
+        <nav>
+          <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- Main Content -->
     <main>
       <!-- Hero -->
-      <section id="home">
-        <h1>Front End Developer Enthusiast</h1>
+      <section id="home" class="hero">
+        <div class="container">
+          <h1>Front End Developer Enthusiast</h1>
 
-        <p>
-          Saya senang membangun website yang modern, responsif, dan mudah
-          digunakan menggunakan HTML, CSS, dan JavaScript.
-        </p>
+          <p>
+            Saya senang membangun website yang modern, responsif, dan mudah
+            digunakan menggunakan HTML, CSS, dan JavaScript.
+          </p>
 
-        <a href="#projects"> Lihat Project </a>
+          <a href="#projects" class="button"> Lihat Project </a>
+        </div>
       </section>
 
       <!-- About -->
       <section id="about">
-        <h2>Tentang Saya</h2>
+        <div class="container">
+          <h2 class="section-title">Tentang Saya</h2>
 
-        <p>
-          Saya adalah seorang Front End Developer Enthusiast yang memiliki
-          ketertarikan pada pengembangan antarmuka website, pengalaman pengguna,
-          dan teknologi web modern.
-        </p>
+          <p class="about">
+            Saya adalah seorang Front End Developer Enthusiast yang memiliki
+            ketertarikan pada UI, UX, dan pengembangan website modern. Saya
+            selalu berusaha membuat website yang cepat, responsif, dan nyaman
+            digunakan.
+          </p>
+        </div>
       </section>
 
       <!-- Skills -->
       <section id="skills">
-        <h2>Skills</h2>
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="card-list">
+            <article class="card">
+              <h3>HTML5</h3>
+              <p>Membangun struktur halaman menggunakan Semantic HTML.</p>
+            </article>
 
-        <article>
-          <h3>HTML5</h3>
+            <article class="card">
+              <h3>CSS3</h3>
+              <p>
+                Membuat layout menggunakan Flexbox dan desain yang responsif.
+              </p>
+            </article>
 
-          <p>Membangun struktur halaman menggunakan Semantic HTML.</p>
-        </article>
-
-        <article>
-          <h3>CSS3</h3>
-
-          <p>Membuat layout menggunakan Flexbox dan desain yang responsif.</p>
-        </article>
-
-        <article>
-          <h3>Git & GitHub</h3>
-
-          <p>Mengelola version control serta kolaborasi project.</p>
-        </article>
+            <article class="card">
+              <h3>Git & GitHub</h3>
+              <p>Mengelola version control serta kolaborasi project.</p>
+            </article>
+          </div>
+        </div>
       </section>
 
       <!-- Projects -->
       <section id="projects">
-        <h2>My Projects</h2>
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="card-list">
+            <article class="card">
+              <h3>Landing Page Coffee Shop</h3>
+              <p>Website sederhana menggunakan HTML dan CSS.</p>
+              <a href="#" class="btn"> View Project </a>
+            </article>
 
-        <article>
-          <h3>Landing Page Coffee Shop</h3>
+            <article class="card">
+              <h3>Landing Page Store</h3>
+              <p>Landing page modern dengan Flexbox Layout.</p>
+              <a href="#" class="btn"> View Project </a>
+            </article>
 
-          <p>Website sederhana menggunakan HTML dan CSS.</p>
-
-          <a href="#"> View Project </a>
-        </article>
-
-        <article>
-          <h3>Landing Page Accessories Store</h3>
-
-          <p>Landing page modern dengan Flexbox Layout.</p>
-
-          <a href="#"> View Project </a>
-        </article>
-
-        <article>
-          <h3>Personal Portfolio</h3>
-
-          <p>Website portfolio pribadi sebagai Front End Developer.</p>
-
-          <a href="#"> View Project </a>
-        </article>
+            <article class="card">
+              <h3>Personal Portfolio</h3>
+              <p>Website portfolio pribadi sebagai Front End Developer.</p>
+              <a href="#" class="btn"> View Project </a>
+            </article>
+          </div>
+        </div>
       </section>
 
       <!-- Contact -->
       <section id="contact">
-        <h2>Contact Me</h2>
-
-        <p>Email : smilefathurs@email.com</p>
-
-        <p>LinkedIn : linkedin.com/in/smilefathurs</p>
-
-        <p>GitHub : github.com/smilefathurs</p>
+        <div class="container">
+          <h2 class="section-title">Contact Me</h2>
+          <p>Email : smilefathurs@email.com</p>
+          <p>LinkedIn : linkedin.com/in/smilefathurs</p>
+          <p>GitHub : github.com/smilefathurs</p>
+        </div>
       </section>
     </main>
 
     <!-- Footer -->
     <footer>
-      <p>© 2026 smilefathurs. All Rights Reserved.</p>
+      <div class="container">
+        <p>© 2026 smilefathurs. All Rights Reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
